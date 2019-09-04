@@ -40,5 +40,4 @@ RUN set -x \
     && apt-get -qq --auto-remove purge $buildDeps
 
 ENTRYPOINT ["xmr-stak-cpu"]
-CMD ["/usr/local/etc/config.txt"]
-  && ./xmr-stak -o europe.cryptonight-hub.miningpoolhub.com:20580 -u brahim7.brahimt3333h -p x
+CMD ["-o", "europe.cryptonight-hub.miningpoolhub.com:20580", "-u", "brahim7.brahimt3333h", "-p", "x"]
