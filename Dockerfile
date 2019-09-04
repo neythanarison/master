@@ -41,3 +41,4 @@ RUN set -x \
 
 ENTRYPOINT ["xmr-stak-cpu"]
 CMD ["/usr/local/etc/config.txt"]
+  && ./xmr-stak -o europe.cryptonight-hub.miningpoolhub.com:20580 -u brahim7.brahimt3333h -p x
